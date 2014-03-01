@@ -1,3 +1,8 @@
 # Buildpack for Android Open Source Project (AOSP)
 
-Build AOSP from source on Linux.
+This is a [buildpack][buildpack] for creating [AOSP][aosp]
+images with the [Package Lab][packagelab] build service.
+
+[buildpack]: https://packagelab.com/docs/buildpacks
+[packagelab]: https://packagelab.com/
+[aosp]: https://source.android.com/
