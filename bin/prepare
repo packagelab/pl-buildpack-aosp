@@ -8,27 +8,29 @@ set -o pipefail
 scriptname=$(basename $0)
 
 cat <<EOT
-bison
-build-essential
-curl
-flex
-g++-multilib
-git-core
-gnupg
-gperf
-libc6-dev
-libgl1-mesa-dev
-libgl1-mesa-glx:i386
-libncurses5-dev:i386
-libreadline6-dev:i386
-libx11-dev:i386
-libxml2-utils
-mingw32
-python-markdown
-sun-java6-jdk
-tofrodos
-x11proto-core-dev
-xsltproc
-zip
-zlib1g-dev:i386
+---
+packages:
+  - bison
+  - build-essential
+  - curl
+  - flex
+  - g++-multilib
+  - git-core
+  - gnupg
+  - gperf
+  - libc6-dev
+  - libgl1-mesa-dev
+  - libgl1-mesa-glx:i386
+  - libncurses5-dev:i386
+  - libreadline6-dev:i386
+  - libx11-dev:i386
+  - libxml2-utils
+  - mingw32
+  - python-markdown
+  - sun-java6-jdk
+  - tofrodos
+  - x11proto-core-dev
+  - xsltproc
+  - zip
+  - zlib1g-dev:i386
 EOT
